@@ -1,0 +1,68 @@
+---
+- name: the card is valid
+  uid: 531d120e-8b36-4eaf-a270-1af9a12c9157
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the machine contains enough money
+  uid: f6e1dedf-4a42-48f4-8a45-092644957b8e
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the card should be returned
+  uid: 07e6c4d0-412e-477d-b4a9-eaeb9da72967
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the account balance is "balance"
+  uid: ca1528eb-52dd-4d2a-9372-c878e04b469e
+  parameters:
+  - name: balance
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Account Holder requests "amount"
+  uid: be0bb26c-b99e-45e2-9ff7-1b60b358f013
+  parameters:
+  - name: amount
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the ATM should dispense "amount"
+  uid: 9997ac5d-34cf-47c7-999e-b1031b7f9c37
+  parameters:
+  - name: amount
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the account balance should be "balance"
+  uid: 7237bc02-6c8a-4558-b6d8-7101f13f610d
+  parameters:
+  - name: balance
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the ATM should not dispense any money
+  uid: d37c6c10-9c8d-4023-bc35-61b23686771b
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the ATM should say there are insufficient funds
+  uid: ad4146f9-46ba-434c-bbe5-289e10e46fc8
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the card is disabled
+  uid: 146033f0-0bfe-4dce-8b00-fa9b4dba6d04
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the ATM should retain the card
+  uid: ffe30a6c-e0f1-4de0-aabb-c7e486ef1f25
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the ATM should say the card has been retained
+  uid: bef85168-d8de-4aa2-af47-5e27778389b9
+  parameters: []
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the savings account balance is "amount"
+  uid: 63d8e7c6-e9d3-4e86-971f-a09265a43b80
+  parameters:
+  - name: amount
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the Account Holder transfers "amount" to the savings account
+  uid: 65fa0c4d-38d3-46a3-b25d-0f5d0134856d
+  parameters:
+  - name: amount
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
+- name: the savings account balance should be "amount"
+  uid: d4bf00e6-4dd1-4e08-9257-bb790cc50582
+  parameters:
+  - name: amount
+  body_hash: d41d8cd98f00b204e9800998ecf8427e
